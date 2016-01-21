@@ -26,7 +26,7 @@
     jess : ["Lemon", "Ginger", "Sofra"],
     kym : [],
     melissa : ["Lemon", "Ginger", "Sofra"],
-    rupesh : []
+    rupesh : ["Tokio"]
   };
   
   var filteredList = eateryList;
@@ -83,4 +83,3 @@
     document.getElementById("showOptions").appendChild(div);
   }
   
-
