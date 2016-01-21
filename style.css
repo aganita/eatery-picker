@@ -1,103 +1,85 @@
-html {
-  text-align: center;
-}
 
 body {
-  font-family: Circular, sans-serif;
   background: #990099;
-
-    display: inline-block;
-    margin: 0px auto;
-    text-align: center;
-
-}
-
-
-header, footer {
-  background: #99cc00;
-  height: 100px;
-  text-align: center;
-  color: white;
-  border-radius: 10px;
-  margin-top: 3px;
-  margin-left: 6em;
-  margin-right: 6em;
-  
-}
-
-.container {
-  background: #99cc00;
-  color: white;
-  border-radius: 10px;
-  margin-top: 3px;  
-  margin-left: 6em;
-  margin-right: 6em;
-}
-
-footer .ck-button {
-  background-color: #990099;
+  display: inline-block;
+  margin: 0 auto;  
   font-family: Circular, sans-serif;
-
-
+  color: white;
 }
 
-footer .ck-button:hover {
-  border:3px solid white;
-  -webkit-transition: all 300ms ease;
-  -moz-transition: all 300ms ease;
-  -o-transition: all 300ms ease;
-  transition: all 300ms ease;
-  
+
+header, footer, .container {
+  background: #99cc00;
+  border-radius: 0.5em;
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+  margin-left: 6em;
+  margin-right: 6em;
+  box-sizing: border-box;
 }
+
+header {
+  height: 7em;
+  padding-top: 0.1em;
+  margin-top: 1em;
+  text-align: center;  
+  box-sizing: border-box;  
+}
+
+footer {
+  height: 7em;
+  padding-top: 5em; 
+  text-align: center;  
+  box-sizing: border-box;
+}
+
 
 footer p{
   font-size: 0.75em;
-  color: white;
+  color: #990099;
 }
 
-h1 {
-  vertical-align: middle;
-  
+.box-1, .box-2 {
+  width: 50%;
+  color: white;
+  float: left;
+  display: table;
+  padding: 1.5em;
+  box-sizing: border-box;
+}
+
+.box-2 {
+  padding-left: 0;
 }
 
 ul {
-  margin: 5px 40px;
+  margin: 0;
   padding: 0px;
 }
 
 li {
-  color: #99cc00;
-  background: white;
+  color: white;
   margin: 2px;
-  border-radius: 5px;
   padding: 3px;
   
   
 }
 
-
-
-.box {
-  box-sizing: border-box;
-  width: 50%;
-  color: white;
-}
-
-
 .ck-button {
-    height: 0;
-    overflow: hidden;
-    position: absolute;
+  height: 0;
+  overflow: hidden;
+  position: absolute;
 }
 
 label {
   display: block;
   text-align: center;
-  width: 5em;
-  height: 2.5em;
+  width: 5.5em;
+  height: 3em;
   padding: 5px;
   border: 2px solid white;
   border-radius: 5px;
+  box-sizing: border-box;
 }
 
 input:checked + label {
@@ -117,53 +99,20 @@ input + label:hover {
   transition: all 300ms ease;
 }
 
-.box > div {
+.box-1 > div {
   float: left;
-  margin: 2px;
-  
+  margin: 0.2em;
+  text-align: center;
+  box-sizing: border-box;  
 }
 
-/*
-.ck-button {
-  margin: 5px;
+.sbm-button {
+  width: 8em;
+  height: 4em;
+  border: 1px solid #990099;
+  background: #990099;
   color: white;
-  border:2px solid white;
-  border-radius: 6px;
+  border-radius: 5px;
   overflow:auto;
-  width: 110px;
-  height: 50px;
-  padding: 0px;
+  box-sizing: border-box;  
 }
-
-/*
-.ck-button label span:hover {
-  border:1px solid white;
-  border-radius: 6px;
-  -webkit-transition: all 300ms ease;
-  -moz-transition: all 300ms ease;
-  -o-transition: all 300ms ease;
-  transition: all 300ms ease;
-}
-*/
-
-/*
-.ck-button label input {
-  position:absolute;
-  top:-20px;
-}
-
-.ck-button label span {
-  text-align:center;
-  width: 98px;
-  height: 48px;
-}
-
-
-
-.ck-button input:checked + span{
-  background: white;
-  color: #99cc00;
-  
-}
-
-*/

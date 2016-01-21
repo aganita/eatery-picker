@@ -8,10 +8,13 @@
 
 <body>
   <header>
-    <div><h1>LUNCH ?</h1></div>
+    <div><p>LUNCH ?</p>
+      <button class="sbm-button" onclick="allOptions()">All<br>Options</button>      
+      <button class="sbm-button" onclick="randomOption()">Random<br>Option</button>
+    </div>
   </header>
   <div class="container">
-    <div class="box">
+    <div class="box-1">
       <div>
         <input class="ck-button" id="ck_1" type="checkbox" value="ani" onclick="validate()">
         <label for="ck_1">Ani</label>
@@ -53,20 +56,16 @@
         <label for="ck_10">Rupesh</label>
       </div>
     </div>
-    <div class="box">
+    <div class="box-2">
       <div id="showOptions">
       </div>
     </div>
     <div style="clear:both;"></div>
   </div>
-
   <footer>    
     <div>
-      <button class="sbm-button" onclick="allOptions()">All<br>Options</button>      
-      <button class="sbm-button" onclick="randomOption()">Random<br>Option</button>
-      <p>Copyright © 2015 All Rights Reserved</p>
+      <p>Copyright © 2016 All Rights Reserved</p>
     </div>
   </footer>
-  
 </body>
 </html>
