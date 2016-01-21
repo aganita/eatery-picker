@@ -20,9 +20,9 @@ header, footer, .container {
 
 header {
   height: 7em;
-  padding-top: 0.1em;
   margin-top: 1em;
-  text-align: center;  
+  text-align: center; 
+  overflow:visible;
   box-sizing: border-box;  
 }
 
@@ -31,6 +31,14 @@ footer {
   padding-top: 5em; 
   text-align: center;  
   box-sizing: border-box;
+}
+
+header p{
+  font-size: 1.6em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+  position: relative;
+  top: 0.5em;
 }
 
 
