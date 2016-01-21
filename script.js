@@ -1,29 +1,31 @@
 "use strict";
 
   var eateryList = [
-      "Burger Bros",
+      "Applebee\'s",
       "Bagel Talk",
-      "La Rosa",
-      "Mo's",
-      "Tokio",
-      "Lemon",
-      "Ginger",
-      "Sofra",
-      "Applebee's",
-      "Fireside Grill",
-      "Sichuan Cottage",
+      "Burger Bros",
       "Chipotle",
-      "Noodles & Company"
-      ];
-
+      "El Meson",
+      "Fireside Grill",
+      "Ginger",
+      "Ibby\'s",
+      "La Rosa",
+      "Lemon",
+      "Mo\'s",
+      "Noodles & Company",
+      "Sichuan Cottage",
+      "Sofra",
+      "Solo Trattoria",
+      "Subway",
+      "Tokio" ];
 
   var donts = {
-    ani : ["Tokio", "Sofra", "Applebee's", "Fireside Grill", "Sichuan Cottage"],
-    barb : ["Lemon", "Mo's", "Chipotle", "Ginger", "Sofra"],
+    ani : ["Tokio", "Sofra", "Applebee\'s", "Fireside Grill", "Sichuan Cottage"],
+    barb : ["Lemon", "Mo\'s", "Chipotle", "Ginger", "Sofra","Ibby\'s","Subway"],
     bob : ["Lemon", "La Rosa"],
     erez : [],
     prahini : ["La Rosa","Lemon", "Ginger","Sofra"],
-    jess : ["Lemon", "Ginger", "Sofra"],
+    jess : ["Lemon", "Ginger", "Sofra","Ibby\'s"],
     kym : [],
     melissa : ["Lemon", "Ginger", "Sofra"],
     rupesh : ["Tokio"]
