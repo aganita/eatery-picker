@@ -74,10 +74,16 @@ li {
 }
 
 .ck-button {
+  display: none;
+}
+
+/*
+.ck-button {
   height: 0;
   position: absolute;
   visibility: hidden;
 }
+*/
 
 label {
   display: block;
