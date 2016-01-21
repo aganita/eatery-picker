@@ -1,96 +1,43 @@
+html {
+  text-align: center;
+}
+
 body {
   font-family: Circular, sans-serif;
   background: #990099;
-  margin: auto 15% !important;
+
+    display: inline-block;
+    margin: 0px auto;
+    text-align: center;
+
 }
 
 
 header, footer {
   background: #99cc00;
-  width: 70%;  
   height: 100px;
   text-align: center;
   color: white;
   border-radius: 10px;
-  margin: 3px;
-}
-
-h1 {
-  padding-top: 30px;
-}
-
-ul {
-  margin: 5px 40px;
-  padding: 0px;
-}
-
-li {
-  background: #99cc00;
-  margin: 1px;
-  border-radius: 5px;
-  padding: 3px;
+  margin-top: 3px;
+  margin-left: 6em;
+  margin-right: 6em;
+  
 }
 
 .container {
   background: #99cc00;
-  width: 70%;
   color: white;
   border-radius: 10px;
-  margin: 3px;
-}
-
-.box {
-  box-sizing: border-box;
-  float: left;
-  color: white;
-}
-
-
-.ck-button {
-  margin: 5px;
-  color: white;
-  border:2px solid white;
-  border-radius: 6px;
-  overflow:auto;
-  width: 110px;
-  height: 50px;
-  padding: 0px;
-}
-
-.ck-button label span:hover {
-  border:1px solid white;
-  border-radius: 6px;
-  -webkit-transition: all 300ms ease;
-  -moz-transition: all 300ms ease;
-  -o-transition: all 300ms ease;
-  transition: all 300ms ease;
-}
-
-.ck-button label span {
-  text-align:center;
-  display:block;
-  width: 98px;
-  height: 48px;
-}
-
-.ck-button label input {
-  position:absolute;
-  top:-20px;
-}
-
-.ck-button input:checked + span{
-  color: white;
-  border: 3px solid white;
-  border-radius: 6px;
-  width: 93px;
-  height: 43px;
-
+  margin-top: 3px;  
+  margin-left: 6em;
+  margin-right: 6em;
 }
 
 footer .ck-button {
   background-color: #990099;
   font-family: Circular, sans-serif;
-  font-size: 15px;
+
 
 }
 
@@ -104,6 +51,119 @@ footer .ck-button:hover {
 }
 
 footer p{
-  font-size: 13px;
+  font-size: 0.75em;
   color: white;
 }
+
+h1 {
+  vertical-align: middle;
+  
+}
+
+ul {
+  margin: 5px 40px;
+  padding: 0px;
+}
+
+li {
+  color: #99cc00;
+  background: white;
+  margin: 2px;
+  border-radius: 5px;
+  padding: 3px;
+  
+  
+}
+
+
+
+.box {
+  box-sizing: border-box;
+  width: 50%;
+  color: white;
+}
+
+
+.ck-button {
+    height: 0;
+    overflow: hidden;
+    position: absolute;
+}
+
+label {
+  display: block;
+  text-align: center;
+  width: 5em;
+  height: 2.5em;
+  padding: 5px;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+input:checked + label {
+  background: white;
+  color: #99cc00;
+  -webkit-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+input + label:hover {
+  border: 2px solid white;
+  -webkit-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.box > div {
+  float: left;
+  margin: 2px;
+  
+}
+
+/*
+.ck-button {
+  margin: 5px;
+  color: white;
+  border:2px solid white;
+  border-radius: 6px;
+  overflow:auto;
+  width: 110px;
+  height: 50px;
+  padding: 0px;
+}
+
+/*
+.ck-button label span:hover {
+  border:1px solid white;
+  border-radius: 6px;
+  -webkit-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+*/
+
+/*
+.ck-button label input {
+  position:absolute;
+  top:-20px;
+}
+
+.ck-button label span {
+  text-align:center;
+  width: 98px;
+  height: 48px;
+}
+
+
+
+.ck-button input:checked + span{
+  background: white;
+  color: #99cc00;
+  
+}
+
+*/
