@@ -1,6 +1,34 @@
 "use strict";
+// main global variables that all the functions use 
+var title = document.title;
+var eateryList = [];
+var filteredList = [];
+var donts = {};
 
-  var eateryList = [
+
+  var gilbarco_eateryList = [
+      "4 ый этаж",
+      "6 ый этаж",
+      "Авиапарк",
+      "Корчма",
+      "Метрополис",
+      "Старт",
+      "Урюк"
+      ];
+
+  var gilbarco_donts = {
+    denis : ["Старт", "4 ый этаж", "6 ый этаж"],
+    andrey : ["4 ый этаж", "6 ый этаж"],
+    dima : ["6 ый этаж"],
+    artem : ["Метрополис", "6 ый этаж"],
+    artems : ["Метрополис", "6 ый этаж"],
+    ilya : [],
+    evgeniy : ["Метрополис", "6 ый этаж"],
+    vlad : ["6 ый этаж"],
+    valeriya : ["6 ый этаж", "Старт"]
+  };
+  
+  var espoc_eateryList = [
       "Applebee\'s",
       "Bagel Talk",
       "Burger Bros",
@@ -19,7 +47,7 @@
       "Subway",
       "Tokio" ];
 
-  var donts = {
+  var espoc_donts = {
     ani : ["Tokio", "Sofra", "Applebee\'s", "Fireside Grill", "Sichuan Cottage"],
     barb : ["Lemon", "Mo\'s", "Chipotle", "Ginger", "Sofra","Ibby\'s","Subway"],
     bob : ["Lemon", "La Rosa"],
@@ -31,8 +59,20 @@
     rupesh : ["Tokio"]
   };
   
-  var filteredList = eateryList;
-
+  
+  // set the global variables
+  function setGlobalVariables() {
+    // generate variable names from the title of the document 
+    title = title.toLowerCase();
+    var var1 = title + "_eateryList";
+    var var2 = title + "_donts";
+    // set the global varibles 
+    eateryList = window[var1];
+    donts = window[var2];
+    filteredList = eateryList;
+  }
+  
+  setGlobalVariables();
 
   // show the list of eateries based on selected hungries
   function validate() {   
@@ -79,7 +119,7 @@
       }
       div.appendChild(ul);
     } else {
-      txt = document.createTextNode("Something is not right");
+      txt = document.createTextNode("hmmm... it worked on my computer");
       div.appendChild(txt);
     } 
     document.getElementById("showOptions").appendChild(div);
