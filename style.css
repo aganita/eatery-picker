@@ -195,6 +195,10 @@ input + label:hover {
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
+    body {
+      background: black;
+    }
+    
 
 }
 
