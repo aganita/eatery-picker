@@ -195,10 +195,21 @@ input + label:hover {
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
-    body {
+  
+  body {
       background: black;
-    }
-    
+  }
+
+  header, footer, .container {
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+
+  header p{
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}    
 
 }
 
