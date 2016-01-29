@@ -102,7 +102,15 @@ var donts = {};
   
   // show list of available eateries  
   function allOptions() {
+    // clear the current list
     document.getElementById("showOptions").innerHTML = '';
+    // clear all the selectors
+    var elements = document.getElementsByTagName('input');
+    for (var i = 0; i < elements.length; i++) {
+      var input = elements[i];
+      input.checked = false;
+    }
+   
     showOptions(eateryList);
   }
 
