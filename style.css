@@ -116,6 +116,7 @@ input + label:hover {
   transition: all 100ms ease;
 }
 
+/* .- -. .. */
 .box-1 > div {
   float: left;
   margin: 0.2em;
