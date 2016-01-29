@@ -2,5 +2,8 @@
 The biggest problem any office has is WHERE TO GO FOR LUNCH. People are just too picky.
 
 # The solution
-My Web App is designed to give the group a list of suggestions based on user preferences. 
+Simple restaurant picker built with organic JavaScript and handmade HTML5 and CSS3, no frameworks or libraries added.  
+
+# Page location
+www.eaterypicker.com
 
