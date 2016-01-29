@@ -1,7 +1,6 @@
 # The problem
-In my office the biggest problem that we have to solve is to pick a place for lunch that everyone likes.
+The biggest problem any office has is WHERE TO GO FOR LUNCH. People are just too picky.
 
 # The solution
-I wrote one page app that will give the list of available restautants based on user preferences. 
-No external librarioes were included. The backend logic is written in vanilla JavaScript
+My Web App is designed to give the group a list of suggestions based on user preferences. 
 
