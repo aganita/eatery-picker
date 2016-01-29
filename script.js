@@ -53,7 +53,7 @@ var donts = {};
     bob : ["Lemon", "La Rosa"],
     erez : [],
     prahini : ["La Rosa","Lemon", "Ginger","Sofra"],
-    jess : ["Lemon", "Ginger", "Sofra","Ibby\'s"],
+    jess : ["Lemon", "Ginger", "Sofra","Ibby\'s","Sichuan Cottage"],
     kym : [],
     melissa : ["Lemon", "Ginger", "Sofra"],
     rupesh : ["Tokio"]
